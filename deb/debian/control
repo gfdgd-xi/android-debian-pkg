@@ -1,0 +1,23 @@
+Source: android-debian
+Section: metapackages
+Priority: extra
+Maintainer: gfdgd xi <3025613752@qq.com>
+Build-Depends: debhelper (>=8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.gfdgdxi.top
+
+Package: android-debian-desktop
+Architecture: all
+Depends: ${misc:Depends},
+ xfce4,
+ tightvncserver,
+ 
+Recommands:
+ neofetch,
+ vim,
+ spark-store-console | spark-store
+
+Description: Android Debian Environment - Next
+ This is a meta package depends GXDE New Desktop Envrionment.
+ .
+ You can safety remove it after installed.
